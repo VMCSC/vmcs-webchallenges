@@ -1,0 +1,47 @@
+<html>
+<style>
+.box {
+	position: relative;
+	height: 200px;
+	width: 200px;
+}
+
+#box1 {
+	transform: translateY(400px);
+}
+
+#box2 {
+	transform: translateY(-200px);
+}
+
+
+#box3 {
+	transform: translateY(-200px);
+}
+
+/* This solution also works. Be aware that you will need to set position to relative for the box. */
+/*
+.box {
+	position: relative;
+}
+
+#box1 {
+	top: 400px;
+}
+
+#box2 {
+	top: -200px;
+}
+
+
+#box3 {
+	top: -200px;
+}*/
+
+</style>
+<body>
+	<div id="box1" class="box" style="background-color:blue;"></div>
+	<div id="box2" class="box" style="background-color:pink;"></div>
+	<div id="box3" class="box" style="background-color:green;"></div>
+</body>
+</html>
