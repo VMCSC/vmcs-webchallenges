@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Challenge 2:
+
+Container 1:
+- Make every other box green.
+- Make every 4th box yellow.
+
+Container 2:
+- Make every other box green.
+- Make the 1st paragraph have a font-size of 30pt.
+- Make the last box purple.
+- Add a spade to the end of the last paragraph (♠/&spades;)
+
+Container 3:
+- Make every odd-numbered box pink when the device has a width of at least 992px.
+- When the device has a width of at least 992px, set the last box to fill the rest of the space using flex-grow.
+- Make every even-numbered box change to green when you hover over it.
+- Add a brown box with the same height and width as the rest of the boxes to the first box WITHOUT MODIFYING THE HTML.
+
+Container 4:
+- When the devices has a width of at least 1200px, make the boxes 250px by 250px.
+- Change the selection background of the last paragraph to green.
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge 2</title>
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 30px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .container2, .container4 {
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container container1">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+<hr>
+<div class="container container2">
+    <div class="box"></div>
+    <div class="box"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas urna in viverra aliquam. Phasellus sed ipsum pharetra lorem egestas rhoncus ut nec tellus. Nulla in gravida nunc. Duis egestas elit rutrum enim placerat pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc pulvinar quam ut est venenatis cursus. Sed commodo tincidunt dapibus. Curabitur eget arcu vitae turpis pharetra malesuada. In fermentum faucibus dolor sed dictum. In eget facilisis metus. Sed id lectus accumsan, faucibus massa sit amet, ornare odio. Pellentesque ac feugiat ligula. </p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas urna in viverra aliquam. Phasellus sed ipsum pharetra lorem egestas rhoncus ut nec tellus. Nulla in gravida nunc. Duis egestas elit rutrum enim placerat pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc pulvinar quam ut est venenatis cursus. Sed commodo tincidunt dapibus. Curabitur eget arcu vitae turpis pharetra malesuada. In fermentum faucibus dolor sed dictum. In eget facilisis metus. Sed id lectus accumsan, faucibus massa sit amet, ornare odio. Pellentesque ac feugiat ligula. </p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas urna in viverra aliquam. Phasellus sed ipsum pharetra lorem egestas rhoncus ut nec tellus. Nulla in gravida nunc. Duis egestas elit rutrum enim placerat pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc pulvinar quam ut est venenatis cursus. Sed commodo tincidunt dapibus. Curabitur eget arcu vitae turpis pharetra malesuada. In fermentum faucibus dolor sed dictum. In eget facilisis metus. Sed id lectus accumsan, faucibus massa sit amet, ornare odio. Pellentesque ac feugiat ligula. </p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas urna in viverra aliquam. Phasellus sed ipsum pharetra lorem egestas rhoncus ut nec tellus. Nulla in gravida nunc. Duis egestas elit rutrum enim placerat pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc pulvinar quam ut est venenatis cursus. Sed commodo tincidunt dapibus. Curabitur eget arcu vitae turpis pharetra malesuada. In fermentum faucibus dolor sed dictum. In eget facilisis metus. Sed id lectus accumsan, faucibus massa sit amet, ornare odio. Pellentesque ac feugiat ligula. </p>
+</div>
+<hr>
+<div class="container container3">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+<hr>
+<div class="container container4">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas urna in viverra aliquam. Phasellus sed ipsum pharetra lorem egestas rhoncus ut nec tellus. Nulla in gravida nunc. Duis egestas elit rutrum enim placerat pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc pulvinar quam ut est venenatis cursus. Sed commodo tincidunt dapibus. Curabitur eget arcu vitae turpis pharetra malesuada. In fermentum faucibus dolor sed dictum. In eget facilisis metus. Sed id lectus accumsan, faucibus massa sit amet, ornare odio. Pellentesque ac feugiat ligula. </p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas urna in viverra aliquam. Phasellus sed ipsum pharetra lorem egestas rhoncus ut nec tellus. Nulla in gravida nunc. Duis egestas elit rutrum enim placerat pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc pulvinar quam ut est venenatis cursus. Sed commodo tincidunt dapibus. Curabitur eget arcu vitae turpis pharetra malesuada. In fermentum faucibus dolor sed dictum. In eget facilisis metus. Sed id lectus accumsan, faucibus massa sit amet, ornare odio. Pellentesque ac feugiat ligula. </p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas urna in viverra aliquam. Phasellus sed ipsum pharetra lorem egestas rhoncus ut nec tellus. Nulla in gravida nunc. Duis egestas elit rutrum enim placerat pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc pulvinar quam ut est venenatis cursus. Sed commodo tincidunt dapibus. Curabitur eget arcu vitae turpis pharetra malesuada. In fermentum faucibus dolor sed dictum. In eget facilisis metus. Sed id lectus accumsan, faucibus massa sit amet, ornare odio. Pellentesque ac feugiat ligula. </p>
+</div>
+</body>
+</html>

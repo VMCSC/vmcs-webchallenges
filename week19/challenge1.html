@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Challenge 1:
+- Center the heading.
+- Make all links turn green when you hover over them.
+- Make all visited links turn yellow.
+- Make the "cool-buttons" look nicer (subjective).
+- Make the "cool-buttons" turn purple when you hover over them.
+- Make the form more visually appealing by adding some space between the inputs
+- Make an disabled buttons brown.
+- Make the text boxes' background gray when the user selects them.
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge 1</title>
+
+    <style>
+        .form-container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello!</h1>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a id="ele1" href="https://google.com">Duis quis erat mattis</a>, mattis ligula quis, luctus tellus. Curabitur pellentesque mauris diam, vel vehicula dui ultricies id. Ut mollis erat et ante hendrerit elementum. Pellentesque fermentum purus non luctus convallis. Phasellus id ante venenatis, lobortis dolor vitae, imperdiet odio. Praesent velit ante, mollis ac consectetur vel, tempor et magna. Vestibulum facilisis sed justo sit amet tristique.
+</p>
+<p>
+    Phasellus eget tincidunt augue. Pellentesque a est ipsum. Morbi imperdiet massa id tristique condimentum. Phasellus ipsum quam, pulvinar sed metus varius, efficitur suscipit libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eleifend finibus nisl a porttitor. Donec consectetur erat ut arcu congue malesuada. Donec et ipsum eget justo scelerisque fermentum. Integer facilisis erat quis magna dignissim, vitae fringilla lorem pellentesque.
+</p>
+<p>
+    Donec ac mauris viverra, luctus ligula vel, rhoncus justo. Proin imperdiet fringilla elit vitae faucibus. In placerat tempus tristique. Proin arcu velit, pellentesque nec libero a, tristique dictum ipsum. Ut diam neque, porttitor id augue in, rhoncus faucibus lacus. Phasellus condimentum justo sapien, dapibus interdum velit venenatis in. Nullam vitae nisi nec lorem tincidunt facilisis. Nunc pellentesque ipsum non varius euismod.
+</p>
+<p>
+    Vestibulum ullamcorper enim sit amet leo convallis, at aliquet orci fringilla. <a id="ele2" href="https://microsoft.com">Vestibulum nec est sed</a> risus pharetra maximus. Nulla sit amet finibus quam. Maecenas convallis rutrum turpis, vehicula laoreet nisl interdum sit amet. Etiam a nibh sodales, tincidunt ipsum sed, volutpat ante. Vivamus egestas elit vel convallis tempor. Nulla commodo magna a turpis porta accumsan. In tristique, elit eu semper placerat, tortor sem dictum odio, quis luctus nulla dolor pretium turpis. Pellentesque id risus id purus gravida eleifend at id neque. Donec sollicitudin turpis ac odio bibendum aliquet. Suspendisse quis dui nec velit luctus consequat eget id orci. Praesent condimentum eros dui, ut lacinia ex lobortis eu. Aliquam ut eleifend nisl, at consequat risus. Nullam molestie risus arcu, sed congue tortor dictum eu.
+</p>
+<p>
+    Nam luctus quam tellus, <a id="ele3" href="https://nintendo.com">vestibulum faucibus lorem</a> pellentesque eget. Proin imperdiet tincidunt auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet, dolor quis semper rhoncus, dolor neque varius sapien, sed viverra risus urna quis est. Proin viverra porta porta. Cras ac tellus dictum nibh egestas varius. Nam rhoncus nec arcu eget fringilla. Cras eu luctus lorem. Morbi semper lacus a diam pharetra, et varius massa euismod. In lobortis, diam non pellentesque vehicula, justo magna luctus enim, id interdum quam risus sagittis ex. Pellentesque eget libero turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+</p>
+
+<div class="button-container">
+    <button class="cool-buttons" id="ele4">Cool 1</button>
+    <button class="cool-buttons" id="ele5">Cool 2</button>
+    <button class="cool-buttons" id="ele6">Cool 3</button>
+    <button class="cool-buttons" id="ele7" disabled>Cool 4</button>
+</div>
+
+<div class="form-container">
+    <form>
+        <label>
+            Name:
+            <input class="nice-text" type="text">
+        </label><br>
+        <label>
+            Email:
+            <input class="nice-text" type="text">
+        </label><br>
+        <label>
+            Favourite Colour:
+            <input class="nice-text" type="text">
+        </label><br>
+        <label>
+            Why should you be accepted?
+            <textarea></textarea>
+        </label><br>
+        <button id="ele8" type="submit">Register</button>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Challenge 4:
+- Make every 3rd box smoothly ease to green over 2s when you hover over it.
+- Make the 5th box smoothly ease over 1s to double its size when you hover over it.
+- Make the 5th box smoothly change to black over 6s linearly when you hover over it.
+- Make the 10th box smoothly ease over 5s to a 67 degree rotation when you hover over it.
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge 4</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 30px;
+        }
+        .box:nth-child(3n+3){
+            transition: background-color 2s;
+        }
+        .box:nth-child(3n+3):hover{
+            background-color: green;
+        }
+        .box:nth-child(5){
+            transition: transform 1s, background-color 6s linear;
+        }
+        .box:nth-child(5):hover{
+            transform: scale(2);
+            background-color: black;
+        }
+        .box:nth-child(10){
+            transition: transform 5s;
+        }
+        .box:nth-child(10):hover{
+            transform: rotate(67deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

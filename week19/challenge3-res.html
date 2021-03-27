@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Challenge 3:
+- Change the CSS to use transformations instead of positional properties.
+- Scale box1 to be 1.5x.
+- Rotate the 3rd box 45 degrees.
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .box {
+            position: relative;
+            height: 200px;
+            width: 200px;
+        }
+
+        #box1 {
+            transform: translateY(400px) scale(1.5);
+        }
+
+        #box2 {
+            transform: translateY(-200px);
+        }
+
+
+        #box3 {
+            transform: translateY(-200px) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box" style="background-color:blue;"></div>
+    <div id="box2" class="box" style="background-color:pink;"></div>
+    <div id="box3" class="box" style="background-color:green;"></div>
+</body>
+</html>
